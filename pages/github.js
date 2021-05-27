@@ -67,7 +67,7 @@ module.exports = {
 		}
 	},
 
-	editFileinRepository( filename ) {
+	editRepositoryFile( filename ) {
 		try {
 			I.amOnPage( "/" + get( "username" ) + "/" + get( "repository" ) + "/" + "edit/main/" + filename );
 
@@ -90,7 +90,7 @@ module.exports = {
 		try {
 			I.fillField( "//div[@class='CodeMirror-code']", text );
 		} catch ( e ) {
-			console.log( "Error while adding text to file:", e );
+			console.log( "Error while adding text \"" + text + "\" to file:", e );
 		}
 	},
 
@@ -103,7 +103,7 @@ module.exports = {
 			I.click( "//a[@class='text-small text-mono Link--secondary']" );
 			I.waitForElement( "//*[text()='" + get("readme_summary") + "']" );
 		} catch ( e ) {
-			console.log( "Error while filling in the commit text:", e );
+			console.log( "Error while filling in the commit text with summary \"" + summary + "\" and description \"" + description + "\":", e );
 		}
 	},
 
@@ -113,7 +113,7 @@ module.exports = {
 			I.waitForElement( "//*[text()='" + commitSummary + "']" );
 
 		} catch ( e ) {
-			console.log( "Error while checking if commit is present:", e );
+			console.log( "Error while checking if commit \"" + commitSummary + "\" is present:", e );
 		}
 	},
 

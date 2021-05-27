@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eef84869-36f5-4fd1-bd93-ddad23efe1d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitHubRepository.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/apache-000-default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_analysis.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_classic_editor.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_general.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_gutenberg.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_gutenberg_wp4_9.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_json.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_metabox.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_metabox_cpt.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/free_plugin_wp4_9.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/premium_plugin.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/scripts.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/.travis/wp-cli.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIP/codecept.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecept.json_headless" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecept.json_webdriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Given_I_am_at_Breadcrumbs_settings_on_SEO_-_Search_Appearance_-_Breadcrumbs_page&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Given_I_am_at_Edit_category&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Given_I_am_at_Edit_page&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Given_I_am_at_Edit_post&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Given_I_am_at_SEO_Configuration_Wizard_page&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Given_I_am_at_SEO_Dashboard_page&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Given_I_am_at_SEO_Search_Appearance_page&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Given_I_am_at_SEO_Social_page&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/[ConsoleLogs]_In_order_to_see_Yoast_plugin_does_not_throw_errors&#10;As_an_Yoast_SEO_user&#10;I_need_to_check_console_logs_before_each_hook__Before_for_Given_I_am_logged_in_to_WP&#10;When_I_check_console_logs&#10;Then_no_errors_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/github.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/github.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository_github/Create_and_delete_repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/repository_github/Create_and_delete_repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1t7VaXrEHJz3oS4ymQpbVcMfsBi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eef84869-36f5-4fd1-bd93-ddad23efe1d3" name="Default Changelist" comment="" />
+      <created>1622120178973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622120178973</updated>
+      <workItem from="1622120181351" duration="1994000" />
+      <workItem from="1622122915114" duration="13356000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

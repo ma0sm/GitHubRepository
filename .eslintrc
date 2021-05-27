@@ -1,5 +1,3 @@
-extends: yoast
-
 globals:
   actor: false
   Feature: false

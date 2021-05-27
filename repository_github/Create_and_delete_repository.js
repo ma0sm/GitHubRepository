@@ -26,7 +26,7 @@ Scenario( "Given a GitHub user account exists\n" +
 	"And commit and push it via the GitHub UI\n" +
 	"Then a new commit will exist.\n",
 	async( { I, github } ) => {
-		github.editFileinRepository( get( "readme" ) );
+		github.editRepositoryFile( get( "readme" ) );
 		github.removeAllTextFromFile();
 		github.addTextToFile( get( "new_readme_text" ) );
 		github.fillCommitText( get( "readme_summary" ), get( "readme_description" ) );
