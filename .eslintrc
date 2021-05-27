@@ -1,0 +1,18 @@
+extends: yoast
+
+globals:
+  actor: false
+  Feature: false
+  Before: false
+  After: false
+  Scenario: false
+  within: false
+
+rules:
+  new-cap: [ 2, { "capIsNewExceptions": [ "Feature", "Before", "After", "Scenario" ] } ]
+  max-len: [ 2, { "code": 500 } ]
+  max-statements: [1, 200]
+  complexity: ["error", { "max": 10 }]
+
+parserOptions:
+  ecmaVersion: 2017

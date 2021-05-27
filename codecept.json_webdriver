@@ -4,7 +4,7 @@
   "output": "./output",
   "helpers": {
     "WebDriverIO" : {
-      "url": "http://local.wordpress.test",
+      "url": "http://www.github.com",
       "smartWait": 5000,
       "uniqueScreenshotNames": true,
       "browser": "chrome",
@@ -18,8 +18,7 @@
   },
   "include": {
     "I": "./steps_file.js",
-    "wpAdmin": "./pages/wpadmin.js",
-    "post": "./pages/post.js",
+    "github": "./pages/github.js",
     "config": "./utils/config.js"
   },
   "bootstrap": false,

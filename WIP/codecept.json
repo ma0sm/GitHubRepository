@@ -1,0 +1,41 @@
+{
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "http://local3.wordpress.test",
+      "show": false,
+      "uniqueScreenshotNames": true,
+      "waitForAction": 500,
+      "restart": true,
+      "windowSize": "1600x1200",
+      "timeouts": {
+        "script": 60000,
+        "page load": 10000
+      },
+      "chrome": {
+        "args": [
+          "--no-sandbox",
+          "--disable-setuid-sandbox"
+        ]
+      }
+    },
+    "Response": {
+      "require": "./response_helper.js"
+    },
+    "ElementHelper": {
+      "require": "./element_helper.js"
+    }
+  },
+  "include": {
+    "I": "./steps_file.js",
+    "github": "./pages/github.js",
+    "config": "./utils/config.js"
+  },
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "name": "SEOFree"
+}

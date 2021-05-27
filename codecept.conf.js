@@ -9,8 +9,8 @@ exports.config = {
 	output: "./output",
 	helpers: {
 		Puppeteer: {
-			url: "http://local.wordpress.test",
-			show: false,
+			url: "http://www.github.com",
+			show: true,
 			windowSize: "1600x1200",
 			timeouts: {
 				script: 60000,
@@ -30,7 +30,7 @@ exports.config = {
 			require: "./element_helper.js",
 		},
 		REST: {
-			endpoint: "http://local.wordpress.test/wp-json/wp/v2/",
+			endpoint: "http://www.github.com/wp-json/wp/v2/",
 			onRequest: ( request ) => {
 				request.headers.auth = "123";
 			},
@@ -38,8 +38,7 @@ exports.config = {
 	},
 	include: {
 		I: "./steps_file.js",
-		wpAdmin: "./pages/WPAdmin.js",
-		post: "./pages/Post.js",
+		github: "./pages/github.js",
 		config: "./utils/config.js",
 	},
 	bootstrap: null,
