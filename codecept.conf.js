@@ -10,7 +10,7 @@ exports.config = {
 	helpers: {
 		Puppeteer: {
 			url: "http://www.github.com",
-			show: true,
+			show: false,
 			windowSize: "1600x1200",
 			timeouts: {
 				script: 60000,
