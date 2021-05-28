@@ -3,8 +3,11 @@
 > Scenario's
 > 
 > Log in Github with a test account
+>
 > Create a Github repository
+> 
 > Create a README.md file in the repository and commit&push it via the Github UI
+> 
 > Delete the repository.
 
 ### How to execute
