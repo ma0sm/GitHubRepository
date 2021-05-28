@@ -1,10 +1,5 @@
-### Dept Recruitment Exercise
-The following exercise was assigned to me by Dept as part of their recruitment process:
+### Automation Exercise
 
-> Automate the below scenarios
-> 
-> We also talked about automation. To see what your knowledge is regarding this subject we would like you to automate the scenarios below using a tech stack of your > choice. To be able to review this we would like to receive the codebase (through git/zip) and a small tutorial on how to get it up and running.
-> 
 > Scenario's
 > 
 > Log in Github with a test account
