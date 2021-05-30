@@ -15,3 +15,10 @@ All Codeceptjs tests can be found in the github_repository directory. For local 
 ```sh
 $ npx codeceptjs run -o '{"tests": "relative path to test"}' 
 ```
+
+### Reports & Screenshots
+All screenshots on failure are copied to the /output/ directory.
+Allure reports can be executed by installing [Allure](https://docs.qameta.io/allure/#_installing_a_commandline) and using the xml file generated in the /output/ directory.
+```sh
+allure serve /home/path/to/project/target/surefire-reports/
+```
