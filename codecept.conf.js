@@ -29,12 +29,6 @@ exports.config = {
 		ElementHelper: {
 			require: "./element_helper.js",
 		},
-		REST: {
-			endpoint: "http://www.github.com/wp-json/wp/v2/",
-			onRequest: ( request ) => {
-				request.headers.auth = "123";
-			},
-		},
 	},
 	include: {
 		I: "./steps_file.js",
@@ -43,7 +37,7 @@ exports.config = {
 	},
 	bootstrap: null,
 	mocha: {},
-	name: "plugins-automated-testing",
+	name: "github-testing",
 	plugins: {
 		pauseOnFail: {},
 		retryFailedStep: {
@@ -54,6 +48,9 @@ exports.config = {
 			enabled: true,
 		},
 		screenshotOnFail: {
+			enabled: true,
+		},
+		allure: {
 			enabled: true,
 		},
 	},

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eef84869-36f5-4fd1-bd93-ddad23efe1d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecept.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/codecept.conf.js" afterDir="false" />
-    </list>
+    <list default="true" id="eef84869-36f5-4fd1-bd93-ddad23efe1d3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +48,7 @@
       <workItem from="1622122915114" duration="13992000" />
       <workItem from="1622183747934" duration="19000" />
       <workItem from="1622211780535" duration="388000" />
+      <workItem from="1622311291623" duration="1142000" />
     </task>
     <servers />
   </component>
