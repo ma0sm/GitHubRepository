@@ -23,12 +23,6 @@ exports.config = {
 				],
 			},
 		},
-		Response: {
-			require: "./response_helper.js",
-		},
-		ElementHelper: {
-			require: "./element_helper.js",
-		},
 	},
 	include: {
 		I: "./steps_file.js",
